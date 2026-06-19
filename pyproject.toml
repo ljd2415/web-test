@@ -2,6 +2,12 @@
 name = "community-access-control"
 version = "1.0.0"
 requires-python = ">=3.12"
+dependencies = [
+    "Django==6.0.6",
+    "django-simpleui==2026.1.13",
+    "PyMySQL==1.2.0",
+    "whitenoise==6.11.0",
+]
 
 [tool.vercel]
 entrypoint = "config.wsgi:application"
